@@ -2,8 +2,6 @@
  * 
  */
 package com.example.Api_Spring.Models;
-
-
 import jakarta.persistence.*;
 /**
  * @author GonzalezHDanielaA
@@ -12,7 +10,7 @@ import jakarta.persistence.*;
 
 @Entity
 @Table(name="usuario")
-public class usuarioModel {
+public class UsuarioModel {
 	
 	@Id  //Anotación que indica que es un id
 	@GeneratedValue(strategy = GenerationType.IDENTITY) //indica que se genera automaticamente y que se autoincremente
