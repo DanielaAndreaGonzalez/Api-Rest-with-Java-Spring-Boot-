@@ -9,6 +9,11 @@ For insert a new user can be done as is showed in the next image:
 
 ![image](https://user-images.githubusercontent.com/67668910/211940785-9a303375-b45e-4851-9602-40f77c1a0172.png)
 
+# Consult
+For consult the information ca be done as is showed in the next image
+
+![image](https://user-images.githubusercontent.com/67668910/211941196-71f482b6-9fd7-42c6-bb95-ccd09bc712d5.png)
+
 
 
 
