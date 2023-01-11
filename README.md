@@ -4,6 +4,12 @@
 
 Aplication that develops an Api Rest with spring boot and Methods are implemented to query, save, and delete objects. jpa is used with spring. Connection to a MySql database with Spring Boot
 
+# INSERT
+For insert a new user can be done as is showed in the next image: 
+
+![image](https://user-images.githubusercontent.com/67668910/211940785-9a303375-b45e-4851-9602-40f77c1a0172.png)
+
+
 
 
 
