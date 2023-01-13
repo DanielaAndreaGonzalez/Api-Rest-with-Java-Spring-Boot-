@@ -62,6 +62,11 @@ public class UsuarioService {
 		return usuarioRepository.findByPriority(priority);
 	}
 	
+	/**
+	 * Method does delete an user through by id
+	 * @param id
+	 * @return
+	 */
 	public boolean deleteUser(Long id)
 	{
 		try {
