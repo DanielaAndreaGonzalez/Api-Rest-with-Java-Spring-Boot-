@@ -59,7 +59,7 @@ public class UsuarioService {
 	 */
 	public ArrayList<UsuarioModel> obtainByPriority(Integer priority)
 	{
-		return usuarioRepository.findByPriority(priority);
+		return usuarioRepository.findByPrioridad(priority);
 	}
 	
 	public boolean deleteUser(Long id)
@@ -71,7 +71,6 @@ public class UsuarioService {
 		{
 			return false;
 		}
-	
 	}
 	
 	
