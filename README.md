@@ -14,8 +14,13 @@ For consult the information ca be done as is showed in the next image
 
 ![image](https://user-images.githubusercontent.com/67668910/211941196-71f482b6-9fd7-42c6-bb95-ccd09bc712d5.png)
 
+#Delete
 
+For delete an user is necesary do it like show in the nest image 
 
+For delete an user is necessary do it like show in the next image 
+
+![image](https://user-images.githubusercontent.com/67668910/212760457-13b8f29d-8191-4990-bada-73ed549ee99d.png)
 
 
 
