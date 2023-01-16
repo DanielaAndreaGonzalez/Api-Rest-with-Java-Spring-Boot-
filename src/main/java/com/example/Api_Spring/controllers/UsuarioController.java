@@ -58,15 +58,17 @@ public class UsuarioController {
 	}
 	
 	/**
-	 * This petition HTTP finds the register that have that priority send by this method 
+	 * This petition HTTP finds the register that have that priority send on this method 
 	 * @param priority
 	 * @return
+	 * 
 	 */
-	@GetMapping(path= "query")
-	public ArrayList<UsuarioModel> obtainUserByPriority (@RequestParam("prioridad") Integer priority)
+	@GetMapping("/query")
+	public ArrayList<UsuarioModel> obtainUserByPriority (@RequestParam("priority") Integer priority)
 	{
 		return this.usuarioService.obtainByPriority(priority);
 	}
+	
 	
 	/**
 	 * Method that delete an user by id send through of this method 
@@ -84,8 +86,6 @@ public class UsuarioController {
 			else {
 				return "No se pudo eliminar el usuario con id " +id;
 			}
-		
-		
 	}
 	
 	

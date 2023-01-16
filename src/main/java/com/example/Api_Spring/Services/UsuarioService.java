@@ -57,7 +57,7 @@ public class UsuarioService {
 	 * @param priority
 	 * @return
 	 */
-	public ArrayList<UsuarioModel> obtainByPriority(Integer priority)
+	public  ArrayList<UsuarioModel> obtainByPriority(Integer priority)
 	{
 		return usuarioRepository.findByPriority(priority);
 	}
