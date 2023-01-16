@@ -81,10 +81,10 @@ public class UsuarioController {
 			boolean ok = this.usuarioService.deleteUser(id);
 			if(ok)
 			{
-				return "Se seliminó el usuario con id" +id;
+				return "the user has been deleted" +id;
 			}
 			else {
-				return "No se pudo eliminar el usuario con id " +id;
+				return "the user hasn't been deleted " +id;
 			}
 	}
 	
