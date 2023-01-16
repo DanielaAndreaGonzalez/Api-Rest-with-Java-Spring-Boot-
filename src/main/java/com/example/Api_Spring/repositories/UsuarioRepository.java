@@ -16,7 +16,11 @@ import com.example.Api_Spring.Models.UsuarioModel;
 public interface UsuarioRepository extends CrudRepository<UsuarioModel, Long>{
 	
 <<<<<<< HEAD
+<<<<<<< HEAD
 	public abstract ArrayList<UsuarioModel> findByPrioridad(Integer priority);
+=======
+	public  abstract ArrayList<UsuarioModel> findByPriority(Integer prioridad);
+>>>>>>> main
 =======
 	public  abstract ArrayList<UsuarioModel> findByPriority(Integer prioridad);
 >>>>>>> main
