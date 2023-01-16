@@ -57,11 +57,16 @@ public class UsuarioService {
 	 * @param priority
 	 * @return
 	 */
-	public ArrayList<UsuarioModel> obtainByPriority(Integer priority)
+	public  ArrayList<UsuarioModel> obtainByPriority(Integer priority)
 	{
 		return usuarioRepository.findByPrioridad(priority);
 	}
 	
+	/**
+	 * Method does delete an user through by id
+	 * @param id
+	 * @return
+	 */
 	public boolean deleteUser(Long id)
 	{
 		try {
